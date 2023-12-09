@@ -1,177 +1,219 @@
-import profile from "./profile.png";
+import profile from './profile.png'
 import {
   faAppStore,
   faFacebook,
   faGithub,
   faGooglePlay,
   faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
+} from '@fortawesome/free-brands-svg-icons'
+import { faAdjust, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 
 export const navigation = {
-  name: "이건우",
+  name: '이건우',
   links: [
     {
-      title: "소개",
-      link: "#about",
+      title: '',
+      link: '#about',
     },
     {
-      title: "프로젝트",
-      link: "#projects",
+      title: '프로젝트',
+      link: '#projects',
     },
     {
-      title: "SNS",
-      link: "#contact",
+      title: '깃허브가기',
+      link: 'https://github.com/lgw7537',
     },
   ],
-};
+}
 export const intro = {
-  title: "Hi, I'm LeeGunWoo",
-  description: "정보보호학과 2학년 이건우",
+  title: '웹어플리케이션보안(캡스톤 디자인)',
+  description: '정보보호학과 3학년 이건우',
   image: profile.src,
   buttons: [
     {
-      title: "See more...",
-      link: "#contact",
+      title: '프로젝트 보러가기',
+      link: '#contact',
       isPrimary: true,
     },
   ],
-};
+}
 
 export const about = {
-  title: "자기소개",
+  title: '진행한 프로젝트',
   description: [
-    "",
-    "이름: 이건우(LeeGunWoo).",
-    "사는곳: 인천  ",
-    "생년월일: 2000.01.26",
-    "E-mail: wiasuk12@naver.com",
-    "Call: 010-2930-7537",
-    "웹보안프로그래밍 개인 포트폴리오",
+    '',
+    'Clerk-auth (소셜로그인기능).',
+    'Counter  ',
+    'ContactBook',
+    'CounterDAPP',
+    'TokenDrop',
+    'ERC721-DROP',
+    'NFT Market Place',
   ],
-};
+}
 
 export const work = {
-  title: "Introducing Team Project",
+  title: '소개 ',
   cards: [
     {
-      title: "Team name",
-      description: "5조",
+      title: '이건우',
+      description: '91812775',
     },
     {
-      title: "Team members",
-      description: [
-        "이건우",
-        " | ",
-        "이종민",
-        " | ",
-        "박성진",
-        " | ",
-        "어영민",
-      ],
+      title: '정보보호학과 3학년',
+      description: ['중부대학교 고양캠퍼스'],
     },
 
     {
-      title: "Project Topic",
-      description: "블로그형식 사이트",
+      title: '웹어플리케이션보안',
+      description: '캡스톤디자인',
       icons: null,
     },
   ],
-};
+}
 
 export const projects = {
-  title: "Projects",
+  title: 'Projects 2',
   cards: [
     {
-      title: "My GitHub",
-      description: "My Project for github and vercel",
+      title: 'Clerk-Auth',
+      description: 'Social Login',
       icons: [
-        {
-          link: "https://github.com/lgw7537",
-        },
         {
           icon: faGithub,
-          link: "https://github.com/lgw7537",
+          link: 'https://github.com/lgw7537/clerk-auth',
+        },
+        {
+          icon: faAdjust,
+          link: 'https://clerk-auth-bbhj.vercel.app/',
         },
       ],
     },
     {
-      title: "My Instargram and FaceBook",
-      description:
-        "place to leave small daily life and records 소소한 일상과 기록을 남겨두는 곳",
+      title: 'Counter',
+      description: 'Counter Project',
       icons: [
         {
-          icon: faFacebook,
-          link: "https://ko-kr.facebook.com/",
+          icon: faGithub,
+          link: 'https://github.com/lgw7537/counter',
         },
         {
-          icon: faInstagram,
-          link: "https://www.instagram.com/lgw_0126",
+          icon: faAdjust,
+          link: 'https://counter-lgw7537.vercel.app/',
         },
       ],
     },
     {
-      title: "Team Projects",
-      description: "A blog-style website containing My favorite contents",
+      title: 'Contact BOOK',
+      description: 'Contact BOOK Project',
       icons: [
         {
-          icon: faAngleUp,
-          link: "",
+          icon: faGithub,
+          link: 'https://github.com/lgw7537/contactbook',
+        },
+        {
+          icon: faAdjust,
+          link: 'https://contactbook-nine.vercel.app/',
+        },
+      ],
+    },
+    {
+      title: 'CounterDAPP',
+      description: 'CounterDAPP Project',
+      icons: [
+        {
+          icon: faGithub,
+          link: 'https://github.com/lgw7537/counterf',
+        },
+        {
+          icon: faAdjust,
+          link: 'https://counterf.vercel.app/',
+        },
+      ],
+    },
+    {
+      title: 'TokenDrop',
+      description: 'TokenDrop Project',
+      icons: [
+        {
+          icon: faGithub,
+          link: 'https://github.com/lgw7537/tokendrop',
+        },
+        {
+          icon: faAdjust,
+          link: 'https://tokendrop-coral.vercel.app/',
+        },
+      ],
+    },
+    {
+      title: 'ERC721-DROP',
+      description: 'ERC721-DROP Project',
+      icons: [
+        {
+          icon: faGithub,
+          link: 'https://github.com/lgw7537/erc721-drop',
+        },
+        {
+          icon: faAdjust,
+          link: 'https://erc721-drop.vercel.app/',
+        },
+      ],
+    },
+    {
+      title: 'NFT Market Place',
+      description: 'Market Place Project',
+      icons: [
+        {
+          icon: faGithub,
+          link: 'https://github.com/lgw7537/marketplace-nft',
+        },
+        {
+          icon: faAdjust,
+          link: 'https://marketplace-nft-ebon.vercel.app/',
         },
       ],
     },
   ],
-};
+}
 
 export const contact = {
-  title: "Connect Social(SNS연결하기)",
-  description: "연결을 원하면 아래 두 버튼을 눌러주세요",
-  buttons: [
-    {
-      title: "GO INSTARGRAM",
-      link: "https://www.instagram.com/lgw_0126",
-      isPrimary: true,
-    },
-    {
-      title: "GO FACEBOOK",
-      link: "https://ko-kr.facebook.com/",
-      isPrimary: false,
-    },
-  ],
-};
+  title: '감사합니다',
+  description: '',
+  buttons: [,],
+}
 
 // SEARCH ENGINE
 export const SEO = {
   // 50 - 60 char
-  title: "",
-  description: "",
+  title: '',
+  description: '',
   image: profile.src,
-};
+}
 
 export const links = {
   image: profile.src,
-  title: "",
-  description: "",
+  title: '',
+  description: '',
   cards: [
     {
-      title: "My website",
-      link: "",
+      title: 'My website',
+      link: '',
     },
     {
-      title: "1",
-      link: "",
+      title: '1',
+      link: '',
     },
     {
-      title: "2",
-      link: "",
+      title: '2',
+      link: '',
     },
     {
-      title: "My GitHub",
-      link: "",
+      title: 'My GitHub',
+      link: '',
     },
     {
-      title: "3",
-      link: "",
+      title: '3',
+      link: '',
     },
   ],
-};
+}
