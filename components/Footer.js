@@ -34,7 +34,7 @@ export const Footer = () => {
     <footer className="bg-secondary text-center py-2 px-5">
       <div className="container text-muted">
         <small>
-          &copy; 2023 3학년-2학기{' '}
+          &copy; 2024 4학년-1학기{' '}
           <Link href="https://github.com/lgw7537">
             <a>이건우</a>
           </Link>

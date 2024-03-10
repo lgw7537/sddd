@@ -27,7 +27,7 @@ export const navigation = {
 }
 export const intro = {
   title: '웹어플리케이션보안(캡스톤 디자인)',
-  description: '정보보호학과 3학년 이건우',
+  description: '정보보호학과 4학년 이건우',
   image: profile.src,
   buttons: [
     {
@@ -42,9 +42,9 @@ export const about = {
   title: '진행한 프로젝트',
   description: [
     '',
-    'Clerk-auth (소셜로그인기능).',
-    'Counter  ',
-    'ContactBook',
+    '2023 3-2학기 프로젝트',
+    '2022 2-2학기 프로젝트  ',
+    'TOKEN PAGE',
     'CounterDAPP',
     'TokenDrop',
     'ERC721-DROP',
@@ -60,12 +60,12 @@ export const work = {
       description: '91812775',
     },
     {
-      title: '정보보호학과 3학년',
+      title: '정보보호학과 4학년',
       description: ['중부대학교 고양캠퍼스'],
     },
 
     {
-      title: '웹어플리케이션보안',
+      title: '정보보호프로젝트실습1',
       description: '캡스톤디자인',
       icons: null,
     },
@@ -76,44 +76,44 @@ export const projects = {
   title: 'Projects 2',
   cards: [
     {
-      title: 'Clerk-Auth',
-      description: 'Social Login',
+      title: '2023 3-2학기 팀프토젝트',
+      description: 'Information Security Flatform',
       icons: [
         {
           icon: faGithub,
-          link: 'https://github.com/lgw7537/clerk-auth',
+          link: 'https://github.com/lgw7537/port2023-next-lgw',
         },
         {
           icon: faAdjust,
-          link: 'https://clerk-auth-bbhj.vercel.app/',
+          link: 'https://port2023-next-theta.vercel.app/',
         },
       ],
     },
     {
-      title: 'Counter',
-      description: 'Counter Project',
+      title: '2022 2-2학기 프로젝트',
+      description: 'Team Project',
       icons: [
         {
           icon: faGithub,
-          link: 'https://github.com/lgw7537/counter',
+          link: 'https://github.com/lgw7537/final',
         },
         {
           icon: faAdjust,
-          link: 'https://counter-lgw7537.vercel.app/',
+          link: 'https://final-lgw7537.vercel.app/',
         },
       ],
     },
     {
-      title: 'Contact BOOK',
-      description: 'Contact BOOK Project',
+      title: 'TOKEN PAGE',
+      description: 'TOKEN PAGE Project',
       icons: [
         {
           icon: faGithub,
-          link: 'https://github.com/lgw7537/contactbook',
+          link: 'https://github.com/lgw7537/port2023-next-lgw',
         },
         {
           icon: faAdjust,
-          link: 'https://contactbook-nine.vercel.app/',
+          link: 'https://port2023-next-theta.vercel.app/dashboard',
         },
       ],
     },
